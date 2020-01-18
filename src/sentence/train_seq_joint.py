@@ -218,7 +218,7 @@ if __name__ == '__main__':
 
     elif args.dataset == "multi30k":
         feat_path = multi30k_reorg_path()
-        data_path = multi30k_reorg_path() + "task{}/".format(args.task)
+        data_path = multi30k_reorg_path() + "task{}/".format(args.task) #/media/data/translagent/multi30k_reorg/task2
         task_path = "{}_task{}".format(args.dataset, args.task)
         args.l2 = "de"
 
